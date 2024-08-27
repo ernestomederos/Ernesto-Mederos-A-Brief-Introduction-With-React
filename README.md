@@ -1,6 +1,5 @@
 # Ernesto-Mederos-A-Brief-Introduction-With-React
 A Website to Showcase My CV, Portfolio and Skills Using React
-=======
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

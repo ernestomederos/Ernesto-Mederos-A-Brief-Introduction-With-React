@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+}
+
+.top {
+  margin-left: 100%;
+  scale: 0.6;
+}
+
+.bottom {
+  margin-right: 100%;
+  scale: 0.6;
+}
+
+p {
+  color: #cc9933;
+}

@@ -1,0 +1,11 @@
+.footer-section {
+  margin: 10px;
+  flex: 1;
+}
+.section-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}

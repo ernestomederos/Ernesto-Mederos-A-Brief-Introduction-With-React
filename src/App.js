@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import Navbar from './components/sections/Navbar';
+import Footer from './components/sections/Footer';
+import Home from './components/pages/Home';
+import AboutUs from './components/pages/AboutUs';
+import Services from './components/pages/Services';
+import Contact from './components/pages/ContactUs';
 
 function App() {
+  AOS.init({
+    duration: 1000,
+    easing: "ease-in-back",
+    once: true,
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+<Navbar/>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about-us" element={<AboutUs />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes><Footer />
+  </BrowserRouter>
+
+  
+      
+
   );
 }
 

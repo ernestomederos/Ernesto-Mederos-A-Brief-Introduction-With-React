@@ -1,0 +1,14 @@
+.vignette-container {
+  width: 80%;
+  display: flex;
+}
+.vignette-right {
+  justify-content: right;
+}
+.down-arrow {
+  margin: 1em;
+}
+
+.centered-container img {
+  border-radius: 50%;
+}

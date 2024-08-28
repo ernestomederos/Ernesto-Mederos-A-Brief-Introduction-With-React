@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
@@ -18,17 +18,18 @@ function App() {
   });
   return (
     <BrowserRouter>
-<Navbar/>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about-us" element={<AboutUs />} />
-      <Route path="/services" element={<Services />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes><Footer />
-  </BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Ernesto-Mederos-A-Brief-Introduction-With-React/" element={<Home />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes><Footer />
+    </BrowserRouter>
 
-  
-      
+
+
 
   );
 }

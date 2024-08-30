@@ -1,8 +1,9 @@
 header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   height: 90vh;
+  padding: 0;
 }
 
 .top {
@@ -17,4 +18,10 @@ header {
 
 p {
   color: #cc9933;
+}
+
+@media (max-width: 1025px) {
+.top, .bottom {
+  scale: 0.4;
+}
 }

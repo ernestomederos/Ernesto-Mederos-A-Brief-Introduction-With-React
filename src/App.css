@@ -20,7 +20,6 @@
 h1 {
   font-family: Borcha, Glacial-Indifference, Courier, monospace;
   letter-spacing: 0.03em;
-
 }
 h2,
 h3,
@@ -32,32 +31,31 @@ h4 {
 }
 
 h1 {
-  font-size: 23rem;
+  font-size: calc(1rem + 16vw);
   color: #cc9933;
   font-weight: 100;
   margin: 0;
   padding: 2rem;
-  text-align: left;
-  width: 1400px;
+  /* text-align: left; */
+  width: 1200px;
 }
 h2 {
-  font-size: 10rem;
+  font-size: calc(1rem + 10vw);
   color: #cc9933;
   margin: 0.2em;
 }
 
 h3 {
-  font-size: 5rem;
+  font-size: calc(1rem + 5vw);
   color: #cc9933;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: calc(1rem + 2vw);
   font-weight: 600;
   color: #cc9933;
-  
 }
 
 a {
@@ -75,9 +73,11 @@ p {
   opacity: 0.85;
   display: wrap;
   max-width: 550px;
-  min-width: 370px;
+  padding: 1em;
+  /* min-width: 370px; */
   letter-spacing: -0.02em;
   text-align: center;
+  margin: 0.5em;;
 }
 
 /* Layouts */
@@ -90,9 +90,8 @@ p {
 .centered-container {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   text-align: center;
-
 }
 
 .column {
@@ -118,3 +117,39 @@ p {
   margin: 0;
 }
 
+@media (max-width: 1440px) {
+  h1 {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .centered-container {
+    flex-direction: column;
+  }
+  h1 {
+    width: 800px;
+  }
+}
+
+@media (max-width: 1025px) {
+  /* Styles for desktop devices */
+  h1 {
+    width: 600px;
+  }
+
+  img {
+    size: smaller;
+  }
+}
+
+@media (max-width: 769px) {
+  /* Styles for tablet devices */
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    width: 500px;
+  }
+
+}

@@ -3,7 +3,10 @@
   display: flex;
 }
 .vignette-right {
-  justify-content: right;
+margin-left: 75%;
+}
+.vignette-left{
+  margin-right: 75%;
 }
 .down-arrow {
   margin: 1em;
@@ -11,4 +14,17 @@
 
 .centered-container img {
   border-radius: 50%;
+}
+.vignette-container {
+  visibility: collapse;
+}
+
+@media (max-width: 767px) {
+  
+  .vignette-right, .vignette-left {
+    scale: 0.5;
+  }
+  .vignette-container{
+    width: 90%;
+  }
 }

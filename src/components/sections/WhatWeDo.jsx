@@ -2,13 +2,11 @@ import React from "react";
 import "./WhatWeDo.css";
 import CenteredSection from "../layouts/centeredSection";
 import P from "../elements/p";
-import TopVignette from "../elements/topVignette";
 import CenteredContainer from "../layouts/centeredContainer";
 import Image from "../elements/img";
 import H2 from "../elements/h2";
 import DownArrow from "../elements/downArrow";
 import H3 from "../elements/h3";
-import BottomVignette from "../elements/bottomVignette";
 import Pic1 from "../../assets/images/WhatWeDo/WhatWeDO/1.png";
 import Pic2 from "../../assets/images/WhatWeDo/WhatWeDO/2.png";
 import Pic3 from "../../assets/images/WhatWeDo/WhatWeDO/3.png";
@@ -35,7 +33,6 @@ function WhatIDo() {
     return (
         <CenteredSection>
             <P text={pageNumber} />
-            <TopVignette />
             <CenteredContainer>
                 <H2 text={headline2} />
                 <strong><P text={subtitle} /></strong>
@@ -49,17 +46,9 @@ function WhatIDo() {
                         <P text={item.paragraph} />
 
                         <Image itemUrl={item.pic} alternativeText={item.headline3} height="200" />
-
-
-
-
-
-
-
                     </>
                 )
             })}
-            <BottomVignette />
             <DownArrow />
         </CenteredSection>
 

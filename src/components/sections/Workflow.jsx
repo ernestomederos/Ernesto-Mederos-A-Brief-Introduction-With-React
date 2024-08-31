@@ -5,7 +5,6 @@ import CenteredContainer from "../layouts/centeredContainer";
 import VerticallyCenteredContainer from "../layouts/verticallyCenteredContainer";
 import HorizontalScroll from "../layouts/horizontalScroll";
 import DoubleArrowGold from "../../assets/canvas/double-arrow-gold.png";
-import BottomVignette from "../../assets/canvas/vignette-bottom.png";
 import DownArrow from "../elements/downArrow";
 import Reference from "../../assets/images/12STEPS/1.png";
 import Insights from "../../assets/images/12STEPS/2.png";
@@ -22,7 +21,6 @@ import Publish from "../../assets/images/12STEPS/12.png";
 import P from "../elements/p";
 import H2 from "../elements/h2";
 import Card from "../elements/card";
-import TopVignette from "../elements/topVignette";
 
 const workflowData = {
     pageNumber: "II",
@@ -54,14 +52,10 @@ function Workflow() {
     return (
         <CenteredSection>
             <P text={pageNumber} />
-            <TopVignette />
             <CenteredContainer>
                 <H2 text={headline2} />
                 <P text={subtitle}></P>
             </CenteredContainer>
-
-
-
             <CenteredContainer>
                 <HorizontalScroll>
                     {items.map((item, key) => (
@@ -96,9 +90,6 @@ function Workflow() {
                 </a>
                 <img className="double-arrow-gold" src={DoubleArrowGold} alt="arrow" height="30px" />
             </CenteredContainer>
-            <div className="vignette-container vignette-left">
-                <img src={BottomVignette} className="vignette" alt="vignette" height="40px" />
-            </div>
             <DownArrow />
         </CenteredSection>
     );

@@ -74,10 +74,9 @@ p {
   display: wrap;
   max-width: 550px;
   padding: 1em;
-  /* min-width: 370px; */
   letter-spacing: -0.02em;
   text-align: center;
-  margin: 0.5em;;
+  margin: 0.5em;
 }
 
 /* Layouts */
@@ -117,39 +116,8 @@ p {
   margin: 0;
 }
 
-@media (max-width: 1440px) {
-  h1 {
-    width: 1000px;
-  }
-}
-
 @media (max-width: 1200px) {
   .centered-container {
     flex-direction: column;
   }
-  h1 {
-    width: 800px;
-  }
-}
-
-@media (max-width: 1025px) {
-  /* Styles for desktop devices */
-  h1 {
-    width: 600px;
-  }
-
-  img {
-    size: smaller;
-  }
-}
-
-@media (max-width: 769px) {
-  /* Styles for tablet devices */
-  body {
-    font-size: 16px;
-  }
-  h1 {
-    width: 500px;
-  }
-
 }

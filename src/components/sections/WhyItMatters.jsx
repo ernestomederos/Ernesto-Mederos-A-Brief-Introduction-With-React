@@ -2,12 +2,10 @@ import React from "react";
 import "./WhyItMatters.css";
 import CenteredSection from "../layouts/centeredSection";
 import P from "../elements/p";
-import TopVignette from "../elements/topVignette";
 import CenteredContainer from "../layouts/centeredContainer";
 import H2 from "../elements/h2";
 import DownArrow from "../elements/downArrow";
 import H3 from "../elements/h3";
-import BottomVignette from "../elements/bottomVignette";
 
 const whyItMattersData = {
     pageNumber: "II",
@@ -32,7 +30,6 @@ function WhyItMatters() {
     return (
         <CenteredSection>
             <P text={pageNumber} />
-            <TopVignette />
             <CenteredContainer>
                 <H2 text={headline2} />
                 <strong><P text={subtitle} /></strong>
@@ -45,7 +42,6 @@ function WhyItMatters() {
                     </>
                 )
             })}
-            <BottomVignette />
             <DownArrow />
         </CenteredSection>
 

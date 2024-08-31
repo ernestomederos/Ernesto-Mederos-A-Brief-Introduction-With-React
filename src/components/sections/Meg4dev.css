@@ -7,12 +7,12 @@ header {
 }
 
 .top {
-  margin-left: 100%;
+  margin-left: 75%;
   scale: 0.6;
 }
 
 .bottom {
-  margin-right: 100%;
+  margin-right: 75%;
   scale: 0.6;
 }
 
@@ -20,8 +20,9 @@ p {
   color: #cc9933;
 }
 
-@media (max-width: 1025px) {
-.top, .bottom {
-  scale: 0.4;
-}
+@media (max-width: 767px) {
+  .top,
+  .bottom {
+    scale: 0.3;
+  }
 }

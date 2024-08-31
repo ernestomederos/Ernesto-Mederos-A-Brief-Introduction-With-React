@@ -2,7 +2,6 @@ import React from "react";
 import CenteredSection from "../layouts/centeredSection";
 import H2 from "../elements/h2";
 import P from "../elements/p";
-import TopVignette from "../elements/topVignette";
 import Form from "../elements/Form";
 import DownArrow from "../elements/downArrow";
 import VerticallyCenteredContainer from "../layouts/verticallyCenteredContainer";
@@ -31,7 +30,6 @@ function ContactMe() {
     return (
         <CenteredSection>
             <P text={pageNumber} />
-            <TopVignette />
             <VerticallyCenteredContainer>
                 <H2 text={headline2} />
                 <strong><P text={subtitle} /></strong>
@@ -43,7 +41,7 @@ function ContactMe() {
             <DownArrow />
 
             <Form />
-                   <DownArrow /> 
+            <DownArrow />
         </CenteredSection >
 
 

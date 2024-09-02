@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import "./Workflow.css";
 import CenteredSection from "../layouts/centeredSection";
 import CenteredContainer from "../layouts/centeredContainer";
 import VerticallyCenteredContainer from "../layouts/verticallyCenteredContainer";
 import HorizontalScroll from "../layouts/horizontalScroll";
-import DoubleArrowGold from "../../assets/canvas/double-arrow-gold.png";
 import DownArrow from "../elements/downArrow";
 import Reference from "../../assets/images/12STEPS/1.png";
 import Insights from "../../assets/images/12STEPS/2.png";
@@ -83,14 +81,6 @@ function Workflow() {
                     ))}
                 </HorizontalScroll>
             </CenteredContainer>
-
-            <CenteredContainer>
-                <a className="external-link" href="./portfolio.html">
-                    DOWNLOAD OUR 12STEPS-WORKFLOW FOR FREE!
-                </a>
-                <img className="double-arrow-gold" src={DoubleArrowGold} alt="arrow" height="30px" />
-            </CenteredContainer>
-            <DownArrow />
         </CenteredSection>
     );
 }

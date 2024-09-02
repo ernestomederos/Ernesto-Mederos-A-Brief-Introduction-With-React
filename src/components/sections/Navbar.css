@@ -1,82 +1,68 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: calc(0.1rem + 0.5vw) calc(0.1rem + 0.5vw);
+}
 
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 10px 20px;
+.navbar-brand {
+  height: 60px;
+}
 
-  }
-  
-  .navbar-brand {
-    height: 70px;
-  }
-  
-  .navbar-brand img {
-    height: 70px;
-  }
-  
-  .navbar a {
-    color: #cc9933;
-  }
-  
-  .navbar-nav {
-    list-style: none;
-    display: flex;
-  }
-  
-  .navbar-nav li {
-    position: relative;
-  }
-  
-  .dropdown {
-    list-style: none;
-    position: relative;
-  }
-  
-  .dropdown-content {
-    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out, filter 0.5s ease-in-out;
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    background-color: #ffffff;
-    z-index: 1;
-    list-style: none;
-    top: 100%; /* Position the dropdown below the dropdown button */
-    left: 0;   /* Align the dropdown content with the dropdown button */
-  }
-  .dropdown-items {
-    font-size: smaller;
-  }
-  .dropdown-items:hover {
-    text-decoration: underline;
-  }
-  .dropdown-content a {
-    padding: 10px 10px;
-    display: block;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    opacity: 1;
-    visibility: visible;
-  }
-  
-  .dropdown:hover .dropdown-content a {
-    filter: blur(0); /* Reset blur on hover */
-  }
-  
-  .dropdown-content a:not(:hover) {
-    filter: blur(4px); /* Blur effect on non-hovered items */
-  }
-  
-  .navbar-search input {
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
-  }
-  
-  .navbar-user a {
-    margin-left: 20px;
-  }
-  
+.navbar-nav {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-nav li {
+  position: relative;
+}
+
+.dropdown {
+  list-style: none;
+  position: relative;
+}
+
+.dropdown-content {
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out,
+    filter 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 1;
+  list-style: none;
+  top: 100%;
+  left: 0;
+}
+.dropdown-items {
+  font-size: smaller;
+}
+.dropdown-items:hover {
+  text-decoration: underline;
+}
+.dropdown-content a {
+  padding: 10px 10px;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown:hover .dropdown-content a {
+  filter: blur(0);
+}
+
+.dropdown-content a:not(:hover) {
+  filter: blur(4px);
+}
+
+.navbar-search input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}

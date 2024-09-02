@@ -3,7 +3,6 @@ import CenteredSection from "../layouts/centeredSection";
 import VerticallyCenteredContainer from "../layouts/verticallyCenteredContainer";
 import CenteredContainer from "../layouts/centeredContainer";
 import "./Footer.css";
-import P from "../elements/p";
 function Footer() {
     const currentDate = new Date().getFullYear();
     return (

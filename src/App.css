@@ -106,10 +106,7 @@ p {
 .scrolling-wrapper {
   display: flex;
   flex-direction: row;
-  /* gap: 1em; */
   flex-wrap: wrap;
-  /* max-width: 100%; */
-  /* margin-bottom: 5%; */
   justify-content: center;
 }
 .card {

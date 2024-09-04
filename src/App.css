@@ -32,7 +32,7 @@ h4 {
 }
 
 h1 {
-  font-size: calc(1rem + 16vw);
+  font-size: calc(1rem + 13vw);
   color: #cc9933;
   font-weight: 100;
   margin: 0;
@@ -58,11 +58,11 @@ h4 {
 }
 
 a {
-  font-family: Netflix;
+  font-family: Glacial-Indifference;
   text-decoration: none;
   margin: 0 10px;
-  opacity: 0.85;
-  font-weight: 600;
+  opacity: 1;
+  /* font-weight: 600; */
   color: #cc9933;
 }
 
@@ -89,8 +89,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3em;
-  margin-bottom: 3em;
 }
 .centered-container {
   display: flex;
@@ -108,16 +106,16 @@ p {
 .scrolling-wrapper {
   display: flex;
   flex-direction: row;
-  gap: 8em;
+  gap: 1em;
   flex-wrap: wrap;
   max-width: 100%;
   margin-bottom: 5%;
   justify-content: center;
 }
 .card {
-  width: 320px;
-  height: 200px;
-  padding: 1em;
+  width: 400px;
+  height: 400px;
+  padding: .2em;
 }
 
 .card h4 {
@@ -127,5 +125,15 @@ p {
 @media (max-width: 1200px) {
   .centered-container {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .centered-container {
+    flex-direction: column;
+  }
+
+  .card img {
+    scale: 0.8;
   }
 }

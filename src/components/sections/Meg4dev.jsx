@@ -12,16 +12,14 @@ import CenteredContainer from "../layouts/centeredContainer";
 function Meg4dev() {
 
     return (
-        <header>
-            <CenteredSection><TopKey />
-                <CenteredContainer>
-                    <H1 text="MEG4DEV" />
-                </CenteredContainer>
-                <P className="" text="Welcome to MEG4DEV—where code is a golden key. I'm Ernesto Mederos Garcia, the guy who thought, 'Why not turn my name into a brand?'Curious? Come on in, and let’s see how we can make your next big idea happen—no boring tech talk, I promise!" />
-                <BottomKey />
-               <DownArrow />
-            </CenteredSection> 
-        </header>
+        <CenteredSection><TopKey />
+            <CenteredContainer>
+                <H1 text="MEG4DEV" />
+            </CenteredContainer>
+            <P className="" text="Welcome to MEG4DEV—where code is a golden key. I'm Ernesto Mederos Garcia, the guy who thought, 'Why not turn my name into a brand?'Curious? Come on in, and let’s see how we can make your next big idea happen—no boring tech talk, I promise!" />
+            <BottomKey />
+            <DownArrow />
+        </CenteredSection>
     )
 }
 

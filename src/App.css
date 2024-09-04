@@ -36,7 +36,7 @@ h1 {
   color: #cc9933;
   font-weight: 100;
   margin: 0;
-  padding: 2rem;
+  padding: 0;
 }
 h2 {
   font-size: calc(1rem + 10vw);
@@ -106,16 +106,16 @@ p {
 .scrolling-wrapper {
   display: flex;
   flex-direction: row;
-  gap: 1em;
+  /* gap: 1em; */
   flex-wrap: wrap;
-  max-width: 100%;
-  margin-bottom: 5%;
+  /* max-width: 100%; */
+  /* margin-bottom: 5%; */
   justify-content: center;
 }
 .card {
-  width: 400px;
-  height: 400px;
-  padding: .2em;
+  width: calc(350px + 5vw);
+  height: calc(350px + 3vw);
+  padding: 0.2em;
 }
 
 .card h4 {

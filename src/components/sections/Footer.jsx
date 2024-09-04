@@ -33,16 +33,6 @@ function Footer() {
                         </div>
                     </CenteredContainer>
                     <CenteredContainer>
-                        <div className="footer-section ">
-                            <VerticallyCenteredContainer>
-                                <a href="/faq">FAQs</a>
-                                <a href="/help">HELP CENTER</a>
-                                <a href="/feedback">FEEDBACK</a>
-                            </VerticallyCenteredContainer>
-
-                        </div>
-                    </CenteredContainer>
-                    <CenteredContainer>
                         <div className="footer-section">
                             <VerticallyCenteredContainer>
                                 <a href="/">HOME</a>

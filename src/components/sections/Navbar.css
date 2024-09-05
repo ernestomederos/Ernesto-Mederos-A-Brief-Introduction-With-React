@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
   padding: calc(0.1rem + 0.5vw) calc(0.1rem + 0.5vw);
 }
 
@@ -59,10 +58,4 @@
 
 .dropdown-content a:not(:hover) {
   filter: blur(4px);
-}
-
-.navbar-search input {
-  padding: 5px;
-  border-radius: 5px;
-  border: none;
 }

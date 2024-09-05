@@ -10,11 +10,6 @@
   src: url("./assets/fonts/borcha-regular.otf") format("opentype");
 }
 
-@font-face {
-  font-family: Netflix;
-  src: url("./assets/fonts/NetflixSans-Regular.otf") format("opentype");
-}
-
 /* Elements */
 
 h1 {
@@ -60,18 +55,17 @@ h4 {
 a {
   font-family: Glacial-Indifference;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 17px;
   opacity: 1;
   /* font-weight: 600; */
   color: #cc9933;
 }
 
-footer a {
-  font-size: calc(0.4rem + 0.4vw);
-}
+footer a,
 .navbar a {
   font-size: calc(0.6rem + 0.4vw);
 }
+
 p {
   font-family: Glacial-Indifference;
   opacity: 0.85;
@@ -95,8 +89,8 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .column {
@@ -108,10 +102,11 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  width: 80%;
 }
 .card {
-  width: calc(350px + 5vw);
-  height: calc(350px + 3vw);
+  width: calc(320px + 5vw);
+  height: calc(320px + 3vw);
   padding: 0.2em;
 }
 
@@ -130,7 +125,18 @@ p {
     flex-direction: column;
   }
 
+  p {
+    letter-spacing: -0.05em;
+    margin: 0.5em;
+    font-size: smaller;
+  }
+
   .card img {
     scale: 0.8;
+  }
+
+  .centered-container {
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
   }
 }

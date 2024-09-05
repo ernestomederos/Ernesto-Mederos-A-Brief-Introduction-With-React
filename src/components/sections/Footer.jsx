@@ -14,9 +14,8 @@ function Footer() {
                         <div className="footer-section">
                             <VerticallyCenteredContainer>
                                 <a href="/contact">CONTACT</a>
-                                <a href="https://facebook.com/meg4dev" rel="noreferrer" target="_blank">FACEBOOK</a>
-                                <a href="https://twitter.com/meg4dev" rel="noreferrer" target="_blank">TWITTER</a>
-                                <a href="https://instagram.com/meg4dev" rel="noreferrer" target="_blank">INSTAGRAM</a>
+                                <a href="https://facebook.com/meg4dev" rel="noreferrer" target="_blank">GITHUB</a>
+                                <a href="https://twitter.com/meg4dev" rel="noreferrer" target="_blank">LINKED-IN</a>
 
                             </VerticallyCenteredContainer>
                         </div>
@@ -43,7 +42,8 @@ function Footer() {
                     </CenteredContainer>
 
                 </div>
-                <p>&copy; {currentDate} MEG4DEV</p>
+                <p> &copy; {currentDate} MEG4DEV</p>
+
             </CenteredSection>
         </footer>
     )

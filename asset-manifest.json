@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/css/main.835d03cf.css",
-    "main.js": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/main.889925ec.js",
+    "main.css": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/css/main.ed9cf9d0.css",
+    "main.js": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/main.51fd4578.js",
     "static/js/453.70a5da79.chunk.js": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/453.70a5da79.chunk.js",
     "static/media/3.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/3.31cc538edf3c1aafcb4e.png",
     "static/media/8.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/8.c73e9c333f71f49651f3.png",
@@ -16,7 +16,6 @@
     "static/media/5.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/5.eb4c477f618cf2766118.png",
     "static/media/6.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/6.dfd18344d89c4cb3e7c0.png",
     "static/media/key-bottom.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/key-bottom.1f4dffa5e8bf3c96308b.png",
-    "static/media/NetflixSans-Regular.otf": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/NetflixSans-Regular.34b07abc629b899d2ec0.otf",
     "static/media/key-top.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/key-top.335acecaa74a58282b37.png",
     "static/media/logo-ernesto.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/logo-ernesto.93f68536b8116a07d234.png",
     "static/media/borcha-regular.otf": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/borcha-regular.bc98ab43d4b439a26303.otf",
@@ -24,12 +23,12 @@
     "static/media/double-arrow-gold.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/double-arrow-gold.72a6a5576fd452055c18.png",
     "static/media/arrow.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/arrow.ff219f03e9ca7dd39cc2.png",
     "index.html": "/Ernesto-Mederos-A-Brief-Introduction-With-React/index.html",
-    "main.835d03cf.css.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/css/main.835d03cf.css.map",
-    "main.889925ec.js.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/main.889925ec.js.map",
+    "main.ed9cf9d0.css.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/css/main.ed9cf9d0.css.map",
+    "main.51fd4578.js.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/main.51fd4578.js.map",
     "453.70a5da79.chunk.js.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/453.70a5da79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.835d03cf.css",
-    "static/js/main.889925ec.js"
+    "static/css/main.ed9cf9d0.css",
+    "static/js/main.51fd4578.js"
   ]
 }

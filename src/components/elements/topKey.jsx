@@ -6,7 +6,9 @@ function TopKey() {
 
     return (
         <div className="header-img-container top">
-            <img data-aos="fade-left" src={topKey} height="100px" alt="key" className="key-top" />
+            <img 
+            // data-aos="fade-left" 
+            src={topKey} height="100px" alt="key" className="key-top" />
         </div>
     )
 }

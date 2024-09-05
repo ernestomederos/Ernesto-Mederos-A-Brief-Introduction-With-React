@@ -1,12 +1,10 @@
-
-
 .contact-form {
-  width: 500px;
+  width: calc(18rem + 8vw)  ;
   margin: auto;
   padding: 2rem;
   background: #fff;
   border-radius: 1px;
-  box-shadow: 0 4px 8px  #cc9933;
+  box-shadow: 0 4px 8px #cc9933;
   font-family: Glacial-Indifference;
   text-align: left;
   opacity: 0.85;
@@ -22,7 +20,7 @@
   display: block;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color:  #cc9933;
+  color: #cc9933;
   font-family: Glacial-Indifference;
 }
 
@@ -38,23 +36,21 @@
   font-family: Glacial-Indifference;
 }
 input::placeholder {
-  color: #aaa; 
+  color: #aaa;
   font-style: italic;
   font-size: 0.9rem;
 }
 .contact-form input:focus {
-  border-color:  #cc9933;
+  border-color: #cc9933;
   outline: none;
 }
 
-
 .contact-form input::placeholder {
-  color:  #cc9933;
+  color: #cc9933;
 }
 
-
 .submit-button {
-  background-color:  #cc9933;
+  background-color: #cc9933;
   font-family: Glacial-Indifference;
   color: white;
   border: none;
@@ -63,14 +59,11 @@ input::placeholder {
   font-size: 1rem;
   cursor: pointer;
   transition: all 1s ease;
-
 }
 
 .submit-button:hover {
   letter-spacing: 3px;
-
 }
-
 
 @media (max-width: 768px) {
   .contact-form {

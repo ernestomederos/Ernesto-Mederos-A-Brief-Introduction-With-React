@@ -7,7 +7,7 @@ function TopKey() {
     return (
         <div className="header-img-container top">
             <img 
-            // data-aos="fade-left" 
+            data-aos="fade-down" 
             src={topKey} height="100px" alt="key" className="key-top" />
         </div>
     )

@@ -6,7 +6,7 @@ function BottomKey() {
     return (
         <div className="header-img-container bottom">
                 <img 
-                // data-aos="fade-right" 
+                data-aos="fade-up" 
                 src={bottomKey} height="100px" alt="key" />
             </div>
 

@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/css/main.ed9cf9d0.css",
-    "main.js": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/main.51fd4578.js",
+    "main.css": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/css/main.aa7079ae.css",
+    "main.js": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/main.e5ccf778.js",
     "static/js/453.70a5da79.chunk.js": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/453.70a5da79.chunk.js",
+    "static/media/12STEPS.pdf": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/12STEPS.05474296b622b5d03e89.pdf",
     "static/media/3.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/3.31cc538edf3c1aafcb4e.png",
     "static/media/8.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/8.c73e9c333f71f49651f3.png",
     "static/media/2.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/2.9ebb4552cfa8a8f9ab3e.png",
@@ -23,12 +24,12 @@
     "static/media/double-arrow-gold.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/double-arrow-gold.72a6a5576fd452055c18.png",
     "static/media/arrow.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/arrow.ff219f03e9ca7dd39cc2.png",
     "index.html": "/Ernesto-Mederos-A-Brief-Introduction-With-React/index.html",
-    "main.ed9cf9d0.css.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/css/main.ed9cf9d0.css.map",
-    "main.51fd4578.js.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/main.51fd4578.js.map",
+    "main.aa7079ae.css.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/css/main.aa7079ae.css.map",
+    "main.e5ccf778.js.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/main.e5ccf778.js.map",
     "453.70a5da79.chunk.js.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/453.70a5da79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed9cf9d0.css",
-    "static/js/main.51fd4578.js"
+    "static/css/main.aa7079ae.css",
+    "static/js/main.e5ccf778.js"
   ]
 }

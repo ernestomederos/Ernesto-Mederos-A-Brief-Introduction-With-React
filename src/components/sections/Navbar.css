@@ -12,50 +12,55 @@
 .navbar-nav {
   list-style: none;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-nav li {
   position: relative;
 }
 
-.dropdown {
+.side-bar {
+  margin: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50vw;
+  z-index: 999;
+  background-color: #ffffff48;
+  backdrop-filter: blur(20px);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   list-style: none;
-  position: relative;
 }
 
-.dropdown-content {
-  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out,
-    filter 0.5s ease-in-out;
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-  background-color: #ffffff;
-  z-index: 1;
-  list-style: none;
-  top: 100%;
-  left: 0;
-}
-.dropdown-items {
-  font-size: smaller;
-}
-.dropdown-items:hover {
-  text-decoration: underline;
-}
-.dropdown-content a {
-  padding: 10px 10px;
-  display: block;
-  transition: all 0.3s ease-in-out;
+.side-bar li {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 25%;
+  display: flex;
 }
 
-.dropdown:hover .dropdown-content {
-  opacity: 1;
-  visibility: visible;
+.burger-menu {
+  visibility: collapse;
 }
 
-.dropdown:hover .dropdown-content a {
-  filter: blur(0);
+@media (max-width: 768px) {
+  .hiddenOnMobile {
+    display: none;
+  }
+  .showedOnMobile {
+    visibility: visible;
+  }
 }
 
-.dropdown-content a:not(:hover) {
-  filter: blur(4px);
+@media (max-width: 400px) {
+.side-bar{
+  width: 100vw;
+}
 }

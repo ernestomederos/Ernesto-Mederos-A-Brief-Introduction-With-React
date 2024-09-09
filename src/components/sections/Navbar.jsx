@@ -34,15 +34,15 @@ function Navbar() {
                     </div>
                 </li>
                 <li data-aos="flip-up">
-                    <Link className="menu-links" to="/">HOME</Link>
+                    <Link onClick={hideSidebar} className="menu-links" to="/">HOME</Link>
                 </li>
                 <li data-aos="flip-up">
-                    <Link className="menu-links" to="/about-us">ABOUT US</Link></li>
+                    <Link onClick={hideSidebar} className="menu-links" to="/about-us">ABOUT US</Link></li>
                 <li data-aos="flip-up">
-                    <Link className="menu-links" to="/services">SERVICES</Link>
+                    <Link onClick={hideSidebar} className="menu-links" to="/services">SERVICES</Link>
                 </li>
                 <li data-aos="flip-up">
-                    <Link className="menu-links" to="/contact">CONTACT</Link>
+                    <Link onClick={hideSidebar} className="menu-links" to="/contact">CONTACT</Link>
                 </li>
             </ul>
             <div className="burger-menu showedOnMobile"

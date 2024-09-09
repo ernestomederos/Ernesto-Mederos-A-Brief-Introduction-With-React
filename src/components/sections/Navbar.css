@@ -6,7 +6,12 @@
 }
 
 .navbar-brand {
-  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand a, .navbar-brand img{
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-nav {

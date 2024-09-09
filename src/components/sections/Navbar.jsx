@@ -10,7 +10,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-brand">
                 <Link to="/">
-                    <img data-aos="flip-up" src={Logo} alt="Logo" height="50px" />
+                    <img data-aos="flip-up" src={Logo} alt="Logo" height="70px" />
                 </Link>
             </div>
             <ul className="navbar-nav hiddenOnMobile">

@@ -15,8 +15,9 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background-color: #ffffff;
+  background-color: #f8f8f8;
   font-size: 18px;
+  opacity: 0.85;
 }
 
 code {

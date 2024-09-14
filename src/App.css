@@ -13,43 +13,40 @@
 /* Elements */
 
 h1 {
-  font-family: Borcha, Glacial-Indifference, Courier, monospace;
+  font-family: Borcha;
   letter-spacing: 0.03em;
-  max-width: 100vw;
+  opacity: 0.85;
+  color: #cc9933;
 }
 h2,
 h3,
 h4 {
-  font-family: Borcha, sans-serif;
-  opacity: 0.85;
+  font-family: Borcha;
+  opacity: 1;
   font-weight: 100;
   letter-spacing: 0.05em;
+  color: #cc9933;
 }
 
 h1 {
   font-size: calc(1rem + 13vw);
-  color: #cc9933;
   font-weight: 100;
   margin: 0;
   padding: 0;
 }
 h2 {
   font-size: calc(1rem + 10vw);
-  color: #cc9933;
   margin: 0.2em;
 }
 
 h3 {
   font-size: calc(1rem + 5vw);
-  color: #cc9933;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 h4 {
   font-size: calc(1rem + 2vw);
-  font-weight: 600;
-  color: #cc9933;
 }
 
 a {
@@ -57,24 +54,24 @@ a {
   text-decoration: none;
   margin: 0 17px;
   opacity: 1;
-  /* font-weight: 600; */
   color: #cc9933;
 }
 
 footer a,
-.navbar a, nav p {
+.navbar a,
+nav p {
   font-size: calc(0.6rem + 0.4vw);
 }
 
 p {
   font-family: Glacial-Indifference;
-  opacity: 0.85;
-  display: wrap;
+  /* display: wrap; */
   max-width: 550px;
   padding: 1em;
   letter-spacing: -0.02em;
   text-align: center;
   margin: 0.5em;
+  color: #7a5916;
 }
 
 /* Layouts */

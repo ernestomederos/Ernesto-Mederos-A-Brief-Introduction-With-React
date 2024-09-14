@@ -35,7 +35,7 @@ function WhatIDo() {
             <P text={pageNumber} />
             <CenteredContainer>
                 <H2 text={headline2} />
-                <strong><P text={subtitle} /></strong>
+                <P text={subtitle} />
             </CenteredContainer>
             {items.map(item => {
                 return (

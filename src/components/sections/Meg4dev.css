@@ -1,7 +1,6 @@
 header {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   height: 90vh;
   padding: 0;
 }
@@ -14,10 +13,6 @@ header {
 .bottom {
   margin-right: 75%;
   scale: 0.6;
-}
-
-p {
-  color: #cc9933;
 }
 
 @media (max-width: 767px) {

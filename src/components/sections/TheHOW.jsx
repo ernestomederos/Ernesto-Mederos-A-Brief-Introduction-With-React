@@ -9,7 +9,7 @@ import H3 from "../elements/h3";
 
 const theHOWData = {
     pageNumber: "I",
-    headline2: "TH3HOW",
+    headline2: "The 'HOW'",
     subtitle: "HOW WE GO FROM 'NOTHING' TO 'STUNNING' IN 3 'HOW's",
     steps: [
         { headline3: "1. Harnessing It", paragraph: "Think of this as our first date—no awkward silences allowed! We’re here to get to know your vision inside and out. We’ll chat, ask quirky questions, and really dig into what makes your project tick. It’s all about making sure we’re on the same page before we start writing the book" },

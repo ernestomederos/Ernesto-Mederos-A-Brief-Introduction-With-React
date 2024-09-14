@@ -36,7 +36,7 @@ function Database() {
             <P text={pageNumber} />
             <CenteredContainer>
                 <H2 text={headline2} />
-                <strong><P text={subtitle} /></strong>
+                <P text={subtitle} />
             </CenteredContainer>
             <P text={paragraph1}></P>
             <VerticallyCenteredContainer>

@@ -22,8 +22,8 @@ import Card from "../elements/card";
 
 const workflowData = {
     pageNumber: "II",
-    headline2: "12STEPS",
-    subtitle: "THE BULLET-PROOF-POINTS TO BUILD YOUR DIGITAL MASTERPIECE!",
+    headline2: "12 Steps",
+    subtitle: "THE BULLET-PROOF GUIDE TO BUILD YOUR DIGITAL MASTERPIECE!",
     steps: [
         { id: 1, image: Reference, headline3: "Reference Ready", paragraph: "First things first: we need to find your website’s soul mate! Whether it’s a dazzling example from your industry or one of our top picks, we’ll agree on a reference that aligns with your vision. It’s like dating but for design—finding the perfect match to inspire your site’s look and feel." },
         { id: 2, image: Insights, headline3: "Initial Insights", paragraph: "Now that we’ve got our muse, it’s time to dive into the nitty-gritty. We’ll gather all the juicy details about your brand, audience, and goals. Think of this as the foundation—we’re laying down the bricks before we start building the house." },

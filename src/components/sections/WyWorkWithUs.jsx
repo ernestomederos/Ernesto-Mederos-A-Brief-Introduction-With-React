@@ -33,17 +33,17 @@ function WhyWorkWithUs() {
             <P text={pageNumber} />
             <CenteredContainer>
                 <H2 text={headline2} />
-    
-                <strong><P text={subtitle} /></strong>
+
+                <P text={subtitle} />
             </CenteredContainer>
             {items.map((item) => {
                 return (
                     <> <DownArrow />
-                    <CenteredContainer>
-                      <H4 text={item.headline4} /><RandomImageSeparator />  
-                    </CenteredContainer>
-                        
-                        <strong><P text={item.paragraph1} /></strong>
+                        <CenteredContainer>
+                            <H4 text={item.headline4} /><RandomImageSeparator />
+                        </CenteredContainer>
+
+                        <P text={item.paragraph1} />
                         <P text={item.paragraph2} />
                     </>
                 )

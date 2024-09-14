@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
@@ -17,22 +17,17 @@ function App() {
     once: true,
   });
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Ernesto-Mederos-A-Brief-Introduction-With-React/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
-
-
-
-
+    </HashRouter>
   );
 }
-
 export default App;

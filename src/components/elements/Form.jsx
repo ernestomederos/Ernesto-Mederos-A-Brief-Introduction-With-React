@@ -25,15 +25,15 @@ function Form() {
         <form data-aos="flip-up" ref={form} onSubmit={sendEmail} className="contact-form">
             <div className="form-group">
                 <label htmlFor="name">Name</label>
-                <input type="text" id="name" name="user_name" placeholder="John Doe" />
+                <input type="text" id="name" name="user_name" placeholder="John Doe" required />
             </div>
             <div className="form-group">
                 <label htmlFor="email">Email</label>
-                <input type="email" id="email" name="user_email" placeholder="you@example.com" />
+                <input type="email" id="email" name="user_email" placeholder="you@example.com" required />
             </div>
             <div className="form-group">
                 <label htmlFor="message">Message</label>
-                <input id="message" type="text" name="message" placeholder="Your Message"></input>
+                <input id="message" type="text" name="message" placeholder="Your Message" required></input>
             </div>
             <button type="submit" className="submit-button">SUBMIT</button>
         </form>

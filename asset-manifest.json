@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/css/main.d94e5645.css",
-    "main.js": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/main.82d8fb21.js",
+    "main.js": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/main.d6289b86.js",
     "static/js/453.70a5da79.chunk.js": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/453.70a5da79.chunk.js",
     "static/media/12STEPS.pdf": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/12STEPS.05474296b622b5d03e89.pdf",
     "static/media/3.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/3.31cc538edf3c1aafcb4e.png",
@@ -25,11 +25,11 @@
     "static/media/arrow.png": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/media/arrow.ff219f03e9ca7dd39cc2.png",
     "index.html": "/Ernesto-Mederos-A-Brief-Introduction-With-React/index.html",
     "main.d94e5645.css.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/css/main.d94e5645.css.map",
-    "main.82d8fb21.js.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/main.82d8fb21.js.map",
+    "main.d6289b86.js.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/main.d6289b86.js.map",
     "453.70a5da79.chunk.js.map": "/Ernesto-Mederos-A-Brief-Introduction-With-React/static/js/453.70a5da79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d94e5645.css",
-    "static/js/main.82d8fb21.js"
+    "static/js/main.d6289b86.js"
   ]
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
-import Logo from "../../assets/logos/logo-ernesto.png";
+import H1 from "../elements/h1";
 import showSidebar from "../hooks/showSidebar";
 import hideSidebar from "../hooks/hideSidebar";
 
@@ -10,7 +10,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-brand">
                 <Link to="/">
-                    <img data-aos="flip-up" src={Logo} alt="Logo" height="70px" />
+                    <H1 text="MEG4DEV"/>
                 </Link>
             </div>
             <ul className="navbar-nav hiddenOnMobile">

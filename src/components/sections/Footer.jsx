@@ -3,6 +3,7 @@ import CenteredSection from "../layouts/centeredSection";
 import VerticallyCenteredContainer from "../layouts/verticallyCenteredContainer";
 import CenteredContainer from "../layouts/centeredContainer";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 function Footer() {
     const currentDate = new Date().getFullYear();
     return (
@@ -13,9 +14,9 @@ function Footer() {
                     <CenteredContainer>
                         <div className="footer-section">
                             <VerticallyCenteredContainer>
-                                <a href="/contact">CONTACT</a>
-                                <a href="https://facebook.com/meg4dev" rel="noreferrer" target="_blank">GITHUB</a>
-                                <a href="https://twitter.com/meg4dev" rel="noreferrer" target="_blank">LINKED-IN</a>
+                                <Link to="/contact">CONTACT</Link>
+                                <Link to="https://github.com/ernestomederos" rel="noreferrer" target="_blank">GITHUB</Link>
+                                <Link to="https://www.linkedin.com/in/ernestomederosdev/" rel="noreferrer" target="_blank">LINKED-IN</Link>
 
                             </VerticallyCenteredContainer>
                         </div>
@@ -24,9 +25,9 @@ function Footer() {
                     <CenteredContainer>
                         <div className="footer-section">
                             <VerticallyCenteredContainer>
-                                <a href="/about-us">ABOUT US</a>
-                                <a href="/terms">TERMS OF SERVICE</a>
-                                <a href="/privacy">PRIVACY POLICY</a>
+                                <Link to="/about-us">ABOUT US</Link>
+                                <Link to="/terms">TERMS OF SERVICE</Link>
+                                <Link to="/privacy">PRIVACY POLICY</Link>
                             </VerticallyCenteredContainer>
 
                         </div>
@@ -34,9 +35,9 @@ function Footer() {
                     <CenteredContainer>
                         <div className="footer-section">
                             <VerticallyCenteredContainer>
-                                <a href="/">HOME</a>
-                                <a href="/services">SERVICES</a>
-                                <a href="/portfolio">PORTFOLIO</a>
+                                <Link to="/">HOME</Link>
+                                <Link to="/services">SERVICES</Link>
+                                <Link to="/portfolio">PORTFOLIO</Link>
                             </VerticallyCenteredContainer>
                         </div>
                     </CenteredContainer>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
@@ -18,6 +19,7 @@ function App() {
   });
   return (
     <HashRouter>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

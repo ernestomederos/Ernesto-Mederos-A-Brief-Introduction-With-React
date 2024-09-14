@@ -5,9 +5,11 @@
   padding: calc(0.1rem + 0.5vw) calc(0.1rem + 0.5vw);
 }
 
-.navbar-brand {
-  margin: 0;
-  padding: 0;
+.navbar-brand h1 {
+  max-width: 0px;
+  font-size: calc(24px + 1vw);
+  font-weight: 600;
+  margin-left: 0.5em;
 }
 .navbar-brand a, .navbar-brand img{
   margin: 0;

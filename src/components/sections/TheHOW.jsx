@@ -6,23 +6,12 @@ import CenteredContainer from "../layouts/centeredContainer";
 import H2 from "../elements/h2";
 import DownArrow from "../elements/downArrow";
 import H3 from "../elements/h3";
+import Data from "../elements/Data";
 
-const theHOWData = {
-    pageNumber: "I",
-    headline2: "The 'HOW'",
-    subtitle: "HOW WE GO FROM 'NOTHING' TO 'STUNNING' IN 3 'HOW's",
-    steps: [
-        { headline3: "1. Harnessing It", paragraph: "Think of this as our first date—no awkward silences allowed! We’re here to get to know your vision inside and out. We’ll chat, ask quirky questions, and really dig into what makes your project tick. It’s all about making sure we’re on the same page before we start writing the book" },
-        { headline3: "2. Optimizing It", paragraph: "This is where we build and tweak like a chef perfecting a recipe. We’ll cook up the basics, take a taste, and then adjust the seasoning based on your feedback. We’re aiming for a final dish that’s not just edible but gourmet—no leftover screws or mystery ingredients!" },
-        { headline3: "3. Weaving It", paragraph: "We’re on a mission to make sure your website is smoother than a jazz saxophonist’s solo. We’ll test it like a marathon runner, optimizing speed and usability. If your users aren’t dancing with delight, we’re not done yet. Our goal? A site that’s so fast and user-friendly, it makes everyone’s day a bit better." }
-    ],
-
-}
-
-const pageNumber = theHOWData.pageNumber;
-const headline2 = theHOWData.headline2;
-const subtitle = theHOWData.subtitle;
-const items = theHOWData.steps;
+const pageNumber = Data.theHOW.pageNumber;
+const headline2 = Data.theHOW.headline2;
+const subtitle = Data.theHOW.subtitle;
+const items = Data.theHOW.steps;
 
 function TheHOW() {
 

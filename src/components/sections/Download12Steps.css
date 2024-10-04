@@ -6,9 +6,3 @@
   margin: 1em;
   font-size: calc(1rem + 0.2vw);
 }
-
-/* @media (max-width: 769px) {
-  .double-arrow-gold {
-    visibility: hidden;
-  }
-} */
